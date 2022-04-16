@@ -30,3 +30,15 @@ nav ul li{
     float: left;
     margin-left: 20px;
 }
+.fa-cart-shopping:hover{
+    color: blue !important;}
+.ItemListContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+.ItemListContainer p{
+    margin: 10px 0;
+}
+
