@@ -1,7 +1,14 @@
-const ItemListContainer = (greeting) => {
+import ItemsCount from "./ItemsCount"
+
+const ItemListContainer = () => {
+
+    const onAdd = () => {
+
+    }
+
     return (
-        <div className="ItemListContainer" style={{background: greeting.background}}>
-            <p style={{color: greeting.color, fontSize: greeting.fontsize}}>{greeting.content}</p>
+        <div className="ItemListContainer">
+            <ItemsCount initial={1} stock={10} onAdd={onAdd} />
         </div>
     )
 }

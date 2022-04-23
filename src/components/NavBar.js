@@ -8,7 +8,7 @@ const NavBar = () => {
                 <li><a href="#">Quiénes Somos</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Contacto</a></li>
-                <li><a href="#"><CartWidget /></a></li>
+                <li><CartWidget /></li>
             </ul>
             
         </nav>

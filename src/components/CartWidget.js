@@ -1,6 +1,6 @@
 const CartWidget = () => {
     return (
-        <i className="fa-solid fa-cart-shopping"></i>
+        <button className="material-icons">shopping_cart</button>
     )
 }
 export default CartWidget
