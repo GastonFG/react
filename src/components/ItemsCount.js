@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const ItemsCount = ({ initial, stock, onAdd}) => {
+const ItemsCount = ({ initial, stock, onAdd }) => {
 
     const [counter, setCounter] = useState(initial)
 
@@ -17,7 +17,7 @@ const ItemsCount = ({ initial, stock, onAdd}) => {
     }
 
     const addToCart = () => {
-            onAdd(counter)
+        onAdd(counter)
     }
 
     return (
